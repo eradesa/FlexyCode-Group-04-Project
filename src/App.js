@@ -37,7 +37,7 @@ function App() {
               <Route path="/users" element={<Users />} />
               <Route path="/permissions" element={<Permissions />} />             
             </Routes>
-            <Footerbar title={"Dummy Footer Bar"} setIsSidebar={setIsSidebar} />
+            <Footerbar title={"Copyright © EVIDIO | Powered by Flexy Code"} setIsSidebar={setIsSidebar} />
           </main>
         </div>
       </ThemeProvider>
