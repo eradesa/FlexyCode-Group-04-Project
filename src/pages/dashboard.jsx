@@ -1,5 +1,7 @@
 import { Box} from "@mui/material";
 import Header from "../components/global/MessageHeader";
+import IncomeChart from "../components/global/IncomeChart";
+
 
 
 const Dashboard = () => {
@@ -10,9 +12,11 @@ const Dashboard = () => {
         m="40px 0 0 0"
         height="60vh"
        
-      >       
+      > 
+      <IncomeChart />      
       </Box>
     </Box>
+    
   );
 };
 
