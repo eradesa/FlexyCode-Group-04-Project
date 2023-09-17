@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.sidebar{
+    background:   #F8FBFF;
+    color: #fff;
+    height: 100vh;
+    width: 100vh;
+    transition: all 0.5s;
+}
+.top_section{
+    
+    align-items:center;
+    margin-bottom:20px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.bottom_section{
+    margin-top: 30px;
+}
+.logo{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-bottom:10px;
+    color: #84C1FF;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    color: #ADD6FF;
+    padding: 5px 11px;
+    gap:7px;
+    transition: all 0.5s;
+    margin-bottom: 12px;
+   
+    
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: #035B96;;
+    color: #e1e4e7;
+    border-radius: 0 25px 25px 0;
+    width: 80%;
+}
+.icon {
+    font-size: 20px;
+}
+
+.link_text{
+    font-size: 16px;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+/*##################### DARK MODE ######################*/
+
+.sidebar-dark-mode{
+    background: black;
+    color: white;
+    height: 100vh;
+    width: 100vh;
+    transition: all 0.5s;
+}
+.top_section-dark-mode{
+    
+    align-items:center;
+    margin-bottom:20px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.bottom_section-dark-mode{
+    margin-top: 30px;
+}
+.logo{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.bars-dark-mode{
+    display: flex;
+    font-size: 25px;
+    margin-bottom:10px;
+    color: #84C1FF;
+}
+.link-dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    color: white;
+    padding: 5px 11px;
+    gap:7px;
+    transition: all 0.5s;
+    margin-bottom: 12px;
+   
+    
+}
+.link-dark-mode:hover-dark-mode{
+    background:black;
+    color: white;
+    transition: all 0.5s;
+}
+.active-dark-mode{
+    background: black;;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    width: 70%;
+}
+.icon {
+    font-size: 20px;
+}
+
+.link_text-dark-mode{
+    font-size: 16px;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+/* ############ Togal Swich ################# */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

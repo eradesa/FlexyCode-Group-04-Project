@@ -1,0 +1,89 @@
+.nav-main {
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #d8d1d1;
+   
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content:right;
+    
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    
+    font-size: 15px;   
+    
+  }
+  .menuMsg {
+   
+    color: #04396C;
+   
+    font-size: 15px;
+    padding-top: 35px;
+    margin-top: 0px;
+  }
+    
+  .name-nav {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+  }
+
+  .name-nav  h3 {   
+    margin: 0px;
+    color: #04396C;
+    cursor: pointer;
+    
+  /*background: #035B96;*/
+    }
+  .name-nav > div  {   
+    margin: 0px;
+    color: #035B96;
+    
+  /*background: #035B96;*/
+    }
+
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .top-nav li {
+    margin-right: 20px;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-profile span {
+    font-weight: bold;
+  }
+
+  #myElement {
+    width: 1200px; /* Adjust the width as needed */
+    border: 1px solid #000; /* Add styling as desired */
+    /* Other styles */
+  }
+  
+  #additionalText {
+    display: none; /* Initially hide the additional text */
+  }

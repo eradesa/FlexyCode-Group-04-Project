@@ -1,0 +1,105 @@
+
+.container-c{
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.secHeading{
+color: #031F4B;
+}
+
+.title-section{
+  width: 97%;
+  background-color: #04396C;
+  padding: 8px 5px;
+  margin-bottom: 12px ;
+  padding-right: 20px;
+  display: inline-flex;
+  color: #F8FBFF;
+  align-items: center;
+}
+
+.title-section h3{
+  width: 25%;
+  font-size: 20px;
+  text-align:justify;
+  color:dodgerblue;
+  
+}
+.title-section h4{
+  width: 75%;
+  text-align: right;
+  font-size: 16px ;
+}
+
+.courses-detail-section{
+  color: #F8FBFF;
+}
+
+.image-section{
+  width: 20%;
+  text-align: left;
+}
+.image-section h6{
+  padding: 5px;
+  color: #04396C;
+}
+
+.iconDiv{
+  width: 100%;
+}
+
+.about-sec{
+  width: 35%;
+  text-align: left;
+}
+.about-sec > div{
+  padding: 5px;
+  color: black;
+}
+
+.about-sec p{
+  font-size: 16px;
+  color: dimgray;
+  
+}
+
+.about-sec h5{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  
+}
+.about-sec h6{
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  
+}
+
+
+
+.singlePortifolio{
+  display: inline-flex;
+}
+
+.additional-details{
+  display: inline-flex;
+}
+.dsc-section{
+  width: 88%;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: dimgray;
+}
+
+.op-section{
+  width: 88%;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: dimgray;
+}
+

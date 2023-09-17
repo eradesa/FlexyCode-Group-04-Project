@@ -1,0 +1,170 @@
+/**{
+    margin:0;
+    padding:0;
+   
+}*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: DodgerBlue;
+    
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: white;  
+    height: 100vh;
+    font-size: 30px;
+  }
+  
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    margin-top: 0px;
+    
+  }
+    
+  .container > div  {
+    /*background-color: #f1f1f1;*/
+    margin: 0px;
+    padding: 2px;
+    font-size: 30px;   
+  }
+  
+  /*.sbar-container {
+  width:25%;
+  }*/
+
+     .main-container > div {
+    /*background-color: gray;*/
+    margin: 0px;
+    padding: 5px;
+    
+  }
+
+  .head {
+    height:16%;
+    background-color: white;
+    
+  
+    }
+    /*
+      
+      height:16%;
+      background-color: white;
+      margin-bottom:2.5px;
+      font-size: 15px;
+
+      */
+  .foot {
+      
+      background-color: white;     
+      font-size: 15px;      
+      position: fixed; /* Fixed positioning */
+      bottom: 0; /* Stick to the bottom of the viewport */
+      width: 100%; /* Full width of the screen */
+      
+      color: #fff; /* Set your preferred text color */
+      padding: 0px; /* Add padding for spacing */
+  
+  }
+  
+   .page-content > div {
+    background-color: #035B96;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .txt{
+    font-size: 30px;
+    color: black;
+
+  }
+  /*######################## DARK MODE #####################*/
+
+  .container-dark-mode {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .main-container-dark-mode {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;  
+    height: 100vh;
+    font-size: 30px;
+  }
+  
+  .page-content-dark-mode {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: wblackhite;
+    margin-top: 0px;
+  }
+    
+  .container-dark-mode > div  {
+    /*background-color: #f1f1f1;*/
+    margin: 0px;
+    padding: 2px;
+    font-size: 30px;   
+  }
+  
+  /*.sbar-container {
+  width:25%;
+  }*/
+
+     .main-container-dark-mode > div {
+    /*background-color: gray;*/
+    margin: 0px;
+    padding: 5px;
+    
+  }
+
+  .head-dark-mode, .foot-dark-mode {
+    height:16%;
+    background-color: black;
+    
+  
+    }
+  .foot-dark-mode {
+      height:16%;
+      background-color: black;
+      margin-bottom:2.5px;
+      font-size: 15px;
+  }
+  
+   .page-content-dark-mode > div {
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .txt-dark-mode{
+    background: black;
+    color: white;
+  }

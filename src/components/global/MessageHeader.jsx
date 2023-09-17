@@ -1,23 +1,15 @@
-import { Typography, Box, useTheme } from "@mui/material";
-import { tokens } from "../../theme";
+import React from 'react'
 
-const Header = ({ title, subtitle }) => {
-  const theme = useTheme();
-  const colors = tokens(theme.palette.mode);
+// eslint-disable-next-line react/prop-types
+const Header = ({ title, subtitle,isDarkMode }) => {
+  
   return (
-    <Box mb="30px">
-      <Typography
-        variant="h2"
-        color={colors.grey[100]}
-        fontWeight="bold"
-        sx={{ m: "0 0 5px 0" }}
-      >
-        {title}
-      </Typography>
-      <Typography variant="h5" color={colors.greenAccent[400]}>
-        {subtitle}
-      </Typography>
-    </Box>
+    <React.Fragment>
+        
+        <h1 className={isDarkMode ? 'txt-dark-mode' : 'txt'}>{title}</h1>
+      
+        <h3 style={{fontSize:"18px", color:"dimgray"}}>{subtitle}</h3>
+    </React.Fragment>  
   );
 };
 
