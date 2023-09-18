@@ -31,7 +31,7 @@ export default function MyChart() {
       align: 'left' 
     },
     fill: {
-      colors: ['#00E396']
+      colors: ['#798afd']
     }
   };
 

@@ -67,7 +67,7 @@ const Sidebar = (props) => {
     }
    
     const [isDarkMode, setIsDarkMode] = useState(false);
-    const [isChecked, setIsChecked] = useState(false);
+    //const [isChecked, setIsChecked] = useState(false);
 
     const toggleMode = () => {
     setIsDarkMode(!isDarkMode);
